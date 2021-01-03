@@ -1,0 +1,206 @@
+@charset "utf-8";
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#ust{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height:80px;
+    background-color: #17A082;
+}
+#menu{
+    width:500px;
+    height:80px;
+    margin:0 auto;
+}
+#ustmenu{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#ustmenu li{
+    float: left;
+}
+#ustmenu li a{
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    height:80px;
+    margin-left:5px;
+    line-height:80px;
+    color:#C6FEFB;
+    text-align:center;
+}
+#ustmenu li a:hover{
+    background-color:#1BBC9B;
+}
+.banner{
+    background-image:url(img/banner.jpg);
+    width: 100%;
+    height: 300px;
+    padding-top: 100px;
+    text-align: center;
+    border-bottom: 10px solid #343331;
+}
+.ustyazi{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:900;
+    font-size:50px;
+    color:white;
+    letter-spacing:1px;
+}
+.altyazi{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+}
+#sol{ 
+    float:left;
+    width:60%;
+    height:400px;
+    padding:50px;
+}
+#sag{
+    float:right;
+    width:40%;
+    height:400px;
+    padding:50px;
+}
+.hakkimizdasol{
+    width:50%;
+    height:390px;
+    float:left;
+    background-color: white;
+    padding:70px;
+    padding-top:40px;
+    text-align:justify;
+}
+h1{
+	color:#17A082;
+}
+p{
+	font-size:14px;
+}
+.hakkimizdasag{
+	text-align:center;
+    width:50%;
+    height:390px;
+    float:right;
+	margin:0;
+	padding:40px;
+}
+.kutu{
+	width:600px;
+	height:auto;
+	border-radius:10px;
+	margin-right:20px;
+	margin-bottom:15px;
+	display:inline-block;
+	background:#141414;
+	color:#FFF;
+	margin:20px 35px;
+	background-color:#000;
+	}
+.kuturesim{
+	width:100%;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	transition:opacity .8s;
+	}
+.kuturesim:hover{
+	opacity:.6;
+	}
+h5{
+	color:#626262;
+	margin:10px;}
+.kututext{
+	color:#595959;
+	margin:10px;
+	text-align:justify;
+}
+#ortala{
+	width:auto;
+	height:300px;
+	box-sizing:border-box;
+	text-align:center;
+	padding:10px 450px;
+	background-color:#FFF;
+	color:#000;
+	float:left;
+}
+h1{
+    color:#129992;
+    margin-bottom:0px;
+}
+span{
+    color: #847A71;
+    letter-spacing: 2px;
+}
+p{
+    line-height: 25px;
+}
+.sil{
+    clear: both;
+}
+footer{
+    width:100%;
+	height:auto;
+}
+#altsol{
+	float: left;
+    width: 33.3%;
+    height:400px;
+    padding: 60px;
+    line-height:30px;
+    background-color: #1F1B1A;
+    color: #A1B1B0;
+}
+#altorta{
+	float: left;
+    width: 33.3%;
+    height:400px;
+    padding: 60px;
+    line-height:30px;
+    background-color:#1F1B1A;
+    color: #A1B1B0;
+}
+#altsag{
+    float: left;
+    width: 33.3%;
+    height:400px;
+    padding: 60px;
+    line-height:30px;
+    background-color:#1F1B1A;
+    color:#A1B1B0;
+}
+.cizgi{
+    border-bottom: 1px solid #2D2928;
+    line-height: 40px;
+}
+h4{
+    color: white;
+}
+.linkler {
+    text-decoration: none;
+    color: #A1B1B0;
+}
+#buton{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 50px;
+    background-color: #17A082;
+}
+#buton a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}/* CSS Document */
+
